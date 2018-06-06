@@ -20,14 +20,14 @@ composer 安装
 1.1配置：
 
 在tp5.1的配置文件app.php中配置七牛云的配置参数
-
+```
 'qiniu' => [
 
         'accesskey' => '你自己的七牛云accesskey',
         'secretkey' => '你自己的七牛云secretkey',
         'bucket' => 'bucket',
  ]
-
+```
 1.2使用
 ```
 use tegic\qiniu\Qiniu;
