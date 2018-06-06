@@ -30,7 +30,7 @@ composer 安装
 
 1.2使用
 ```
-use teg1c\qiniu\Qiniu;
+use tegic\qiniu\Qiniu;
 try{
       
       $qiniu = new Qiniu();
